@@ -42,9 +42,10 @@ main {
 }
 
 .image {
-  background-image: url("assets/images/illustration-article.svg");
+  background-image: url("images/illustration-article.svg");
   background-repeat: no-repeat;
   background-position: center center;
+  background-size: cover;
   width: 21.0625rem;
   height: 12.5rem;
   border-radius: 0.625rem;
