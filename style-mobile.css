@@ -1,0 +1,38 @@
+@media only screen and (max-width: 768px) {
+  main {
+    max-width: 375px;
+  }
+
+  .card {
+    width: 20.3125rem;
+    height: 31.3125rem;
+  }
+
+  .image {
+    width: 17.4375rem;
+    height: 12.5rem;
+  }
+
+  .pill {
+    width: 4.5rem;
+    height: 1.6875rem;
+  }
+
+  .label {
+    font-size: 0.75rem;
+  }
+
+  .date {
+    font-size: 0.7375rem;
+  }
+
+  .title {
+    font-size: 1.25rem;
+    margin-top: 1.25rem;
+  }
+
+  .description {
+    font-size: 13.8px;
+    margin-top: 1.0625rem;
+  }
+}
