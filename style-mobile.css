@@ -8,30 +8,30 @@
     height: 31.3125rem;
   }
 
-  .image {
+  .card__image {
     width: 17.4375rem;
     height: 12.5rem;
   }
 
-  .pill {
+  .card__category-pill {
     width: 4.5rem;
     height: 1.6875rem;
   }
 
-  .label {
+  .card__category-label {
     font-size: 0.75rem;
   }
 
-  .date {
+  .card__category-label {
     font-size: 0.7375rem;
   }
 
-  .title {
+  .card__title {
     font-size: 1.25rem;
     margin-top: 1.25rem;
   }
 
-  .description {
+  .card__description {
     font-size: 13.8px;
     margin-top: 1.0625rem;
   }

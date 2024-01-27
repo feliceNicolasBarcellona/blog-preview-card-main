@@ -14,14 +14,7 @@
 
     <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="style-desktop.css" />
-    <link rel="stylesheet" href="style-mobile.css">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Figtree:wght@600;800&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="stylesheet" href="style-mobile.css" />
 
     <title>Frontend Mentor | Blog preview card</title>
 
@@ -30,25 +23,25 @@
   <body>
     <main>
       <div class="card">
-        <div class="image"></div>
-        <section>
-          <div class="pill">
-            <p class="label">Learning</p>
+        <div class="card__image"></div>
+        <section class="card__content">
+          <div class="card__category-pill">
+            <p class="card__category-label">Learning</p>
           </div>
-          <p class="date">Published 21 Dec 2023</p>
-          <p class="title">HTML & CSS foundations</p>
-          <p class="description">
+          <p class="card__date">Published 21 Dec 2023</p>
+          <p class="card__title">HTML & CSS foundations</p>
+          <p class="card__description">
             These languages are the backbone of every website, defining
             structure, content, and presentation.
           </p>
-          <div class="avatar">
+          <div class="card__avatar">
             <img
               src="images/image-avatar.webp"
               width="32"
               height="32"
               alt="avatar"
             />
-            <p class="name">Greg Hooper</p>
+            <p class="card__author-name">Greg Hooper</p>
           </div>
         </section>
       </div>
