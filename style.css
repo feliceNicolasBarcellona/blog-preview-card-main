@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap");
+
+:root {
+  --yellow: hsl(47, 88%, 63%);
+  --white: hsl(0, 0%, 100%);
+  /* --grey: ; hsl(0, 0%, 50%) */
+  --grey: hsl(0, 0%, 35%);
+  --black: hsl(0, 0%, 7%);
+  --font-family: "Figtree", sans-serif;
+  --font-size: 16px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: var(--font-size);
+  font-family: var(--font-family);
+}
+
+main {
+  background-color: var(--yellow);
+  max-width: 90rem;
+  margin: 0 auto;
+  height: calc(100vh - 0.75rem);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  width: 52.7%;
+  border-radius: 20px;
+  box-shadow: 8px 8px 0px 0px rgb(0, 0, 0);
+  border: 1px solid var(--black);
+  background-color: var(--white);
+  padding: 1.5rem;
+}
+
+.card__image {
+  background: url("images/illustration-article.svg") center/cover no-repeat border-box;
+  height: 12.5rem;
+  border-radius: 10px;
+}
+
+.card__content {
+  margin-top: 1.5rem;
+}
+
+.card__category-pill {
+  background: hsl(47, 88%, 63%);
+  border-radius: 4px;
+  width: 26%;
+  text-align: center;
+  height: 1.625rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card__category-label {
+  font-size: 0.75rem;
+  font-weight: 800;
+}
+
+.card__date {
+  font-size: 0.761rem;
+  margin-top: 0.95rem;
+}
+
+.card__title {
+  font-size: 1.26rem;
+  font-weight: 800;
+  margin-top: 1.2rem;
+  color: var(--black);
+}
+
+.card__title:hover {
+  cursor: pointer;
+  color: var(--yellow);
+}
+
+.card__description {
+  color: var(--grey);
+  font-size: 0.886rem;
+  margin-top: 1rem;
+  line-height: 1.32rem;
+}
+
+.card__avatar {
+  margin-top: 1.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.card__avatar img {
+  height: 32px;
+  width: 32px;
+}
+
+.card__author-name {
+  font-size: 0.875rem;
+  font-weight: 800;
+  margin-left: 0.75rem;
+}
+
+.attribution {
+  font-size: 0.6875rem;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 40rem) {
+  .card {
+    width: 26.6%;
+    min-width: 23.9375rem;
+  }
+
+  .card__content {
+    margin-top: 1.45rem;
+  }
+
+  .card__category-pill {
+    width: 24.3%;
+    height: 28px;
+  }
+
+  .card__category-label {
+    font-size: 0.88rem;
+  }
+
+  .card__date {
+    font-size: 0.88rem;
+    margin-top: 1rem;
+  }
+
+  .card__title {
+    font-size: 1.51rem;
+    margin-top: 1.35rem;
+  }
+
+  .card__description {
+    margin-top: 1.2rem;
+    font-size: 1.01rem;
+    line-height: 1.5rem;
+  }
+}
