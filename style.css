@@ -32,12 +32,12 @@ main {
 }
 
 .card {
-  width: 52.7%;
+  width: 55.3%;
   border-radius: 20px;
   box-shadow: 8px 8px 0px 0px rgb(0, 0, 0);
   border: 1px solid var(--black);
   background-color: var(--white);
-  padding: 1.5rem;
+  padding: 1.4rem;
 }
 
 .card__image {
@@ -67,12 +67,12 @@ main {
 }
 
 .card__date {
-  font-size: 0.761rem;
+  font-size: 0.755rem;
   margin-top: 0.95rem;
 }
 
 .card__title {
-  font-size: 1.26rem;
+  font-size: 1.25rem;
   font-weight: 800;
   margin-top: 1.2rem;
   color: var(--black);
@@ -85,13 +85,13 @@ main {
 
 .card__description {
   color: var(--grey);
-  font-size: 0.886rem;
-  margin-top: 1rem;
+  font-size: 0.880rem;
+  margin-top: 1.05rem;
   line-height: 1.32rem;
 }
 
 .card__avatar {
-  margin-top: 1.5rem;
+  margin-top: 1.55rem;
   display: flex;
   align-items: center;
 }
