@@ -33,6 +33,7 @@ main {
 
 .card {
   width: 52.3%;
+  min-width: 20.5rem;
   border-radius: 20px;
   box-shadow: 8px 8px 0px 0px rgb(0, 0, 0);
   border: 1px solid var(--black);
@@ -46,19 +47,16 @@ main {
   border-radius: 10px;
 }
 
-.card__content {
+.card__body {
   margin-top: 1.5rem;
 }
 
 .card__category-pill {
   background: hsl(47, 88%, 63%);
-  border-radius: 4px;
-  width: 26%;
-  text-align: center;
-  height: 1.625rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  border-radius: 5px;
+  width: fit-content;
+  text-align: center; 
+  padding: 0.450rem 0.8rem;
 }
 
 .card__category-label {
@@ -67,14 +65,14 @@ main {
 }
 
 .card__date {
-  font-size: 0.755rem;
+  font-size: 0.76rem;
   margin-top: 0.95rem;
 }
 
 .card__title {
-  font-size: 1.25rem;
+  font-size: 1.26rem;
   font-weight: 800;
-  margin-top: 1.2rem;
+  margin-top: 1.3rem;
   color: var(--black);
 }
 
@@ -85,13 +83,13 @@ main {
 
 .card__description {
   color: var(--grey);
-  font-size: 0.880rem;
+  font-size: 0.89rem;
   margin-top: 1.05rem;
   line-height: 1.32rem;
 }
 
 .card__avatar {
-  margin-top: 1.55rem;
+  margin-top: 1.5rem;
   display: flex;
   align-items: center;
 }
@@ -104,7 +102,7 @@ main {
 .card__author-name {
   font-size: 0.875rem;
   font-weight: 800;
-  margin-left: 0.75rem;
+  margin-left: 0.8rem;
 }
 
 .attribution {
@@ -119,20 +117,14 @@ main {
 @media (min-width: 40rem) {
   .card {
     width: 26.6%;
-    min-width: 23.9375rem;
-  }
-
-  .card__content {
-    margin-top: 1.45rem;
   }
 
   .card__category-pill {
-    width: 24.3%;
-    height: 28px;
+    padding: 0.5rem 0.8rem;
   }
 
   .card__category-label {
-    font-size: 0.88rem;
+    font-size: 0.85rem;
   }
 
   .card__date {
@@ -146,8 +138,9 @@ main {
   }
 
   .card__description {
-    margin-top: 1.2rem;
+    margin-top: 1.15rem;
     font-size: 1.01rem;
     line-height: 1.5rem;
   }
 }
+
